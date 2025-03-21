@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Tipping System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Community Tipping System</h1>
+
+        <div class="tip-section">
+            <h2>Send Tip</h2>
+            <input type="text" id="recipientAddress" placeholder="Recipient Address" class="input-field" />
+            <input type="number" id="tipAmount" placeholder="Amount to Tip" class="input-field" />
+            <button id="tipButton" class="button">Send Tip</button>
+        </div>
+
+        <div class="withdraw-section">
+            <h2>Withdraw Funds</h2>
+            <button id="withdrawButton" class="button">Withdraw</button>
+        </div>
+
+        <div class="balance-section">
+            <h2>Your Balance: <span id="balance">0</span> ETH</h2>
+            <button id="checkBalanceButton" class="button">Check Balance</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
