@@ -43,5 +43,6 @@ The goal of the Community Tipping System is to provide a simple and secure way f
 
 ## Frontend
 
-![image](https://github.com/user-attachments/assets/c34119c3-3d8f-4fd4-b7da-485c76cbca0c)
+![image](https://github.com/user-attachments/assets/fb85470d-08c5-4822-b33d-80819ccbd2f5)
+
 
